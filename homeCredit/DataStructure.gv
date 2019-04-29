@@ -9,23 +9,18 @@ digraph structs {
     ccbalance [color = blue,label="<f1> Credit card balance|<f2> SK_ID_PREV | <f3> SK_ID_CURR| <f4>AMT_BALANCE |..."];
     inspayments [color = blue,label="<f1> install payments|<f2> SK_ID_PREV | <f3> SK_ID_CURR| <f4>NUM_INSTALMENT_VERSION |..."];
     
-    apptrain:f2 -> bureau:f2;
-    bureau:f2 -> apptrain:f2;
+    apptrain:f2 -> bureau:f2 [arrowhead=none];
+    bureau:f3 -> bbalance:f2 [arrowhead=none];
+    apptrain:f2 -> preapp:f3 [arrowhead=none];
+    apptrain:f2 -> pcbalance:f3 [arrowhead=none];
+    apptrain:f2->ccbalance:f3 [arrowhead=none];
+    apptrain:f2->inspayments:f3 [arrowhead=none];
     
-    bureau:f3 ->bbalance:f2;
-    bbalance:f2 ->bureau:f3;
+    preapp:f2 -> pcbalance:f2 [arrowhead=none,style=dotted];
+    preapp:f2 -> ccbalance:f2 [arrowhead=none,style=dotted];
+    preapp:f2 -> inspayments:f2 [arrowhead=none,style=dotted];
+    
 
-    apptrain:f2 ->preapp:f3;
-    preapp:f3 ->apptrain:f2;
-    
-    apptrain:f2 ->pcbalance:f3;
-    pcbalance:f3 ->apptrain:f2;
 
-    apptrain:f2->ccbalance:f3;
-    ccbalance:f3->apptrain:f2;
-    
-    apptrain:f2->inspayments:f3;
-    inspayments:f3->apptrain:f2;
-        
     rankdir=LR;
 }

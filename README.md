@@ -26,8 +26,9 @@ python3-jupyter|Jupyter notebook support|*
   `jupyterf notebook --ip=<your host name> --port=<port number>`
 
 ## Contents of this repo.
-- loadcsv2db2.py, this script could be used to import your data from csv to db2 on i. NOTE, this script is using the non-journal database.
-- homeCredit , this is based on one kernel of a real data science competation on [kaggle](https://www.kaggle.com/): [homeCredit]( https://www.kaggle.com/c/home-credit-default-risk). The kernel we used is : [start-here-a-gentle-introduction] (https://www.kaggle.com/willkoehrsen/start-here-a-gentle-introduction). While the most difference from it is that we tried to use data in db2 as the source instead of csv stream file.
+- loadcsv2db2.py, this is a tool tobe used to import your data from csv to db2 on i. Or course, in most cases your data is already in db2.  NOTE, this script is using the non-journal database.
+
+- homeCredit , this is based on one kernel of a real data science competation on kaggle: [homeCredit]( https://www.kaggle.com/c/home-credit-default-risk). The kernel we used is : [start-here-a-gentle-introduction](https://www.kaggle.com/willkoehrsen/start-here-a-gentle-introduction). While the most difference from it is that we tried to use data in db2 as the source instead of csv stream file. This notebook would help you to understand how data be reterieved from db2 and used in a normal data science project. 
 
 ## Contacts
    GavinZhang @ IBM: zhanggan@cn.ibm.com

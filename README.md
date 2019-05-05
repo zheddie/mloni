@@ -5,6 +5,7 @@
 ## How to setup your environment of ML on i
 + Here's where we can start of RPM open source projects on IBM i. 
 + After setup the RPM env on i, we need to install following packages by yum.
+
 Package|Description|Comments
 --|:--|:--
 tcl|TCL language support|
@@ -17,6 +18,7 @@ python3-scikit-learn|scikit-learn package|
 python3-matplotlib|matplotlib package|*
 libzmq|Zero-MQ library|*
 python3-jupyter|Jupyter notebook support|*
+
  (*) may not available yet.
 ## How to use it.
 - loadcsv2db2.py, this script could be used to import your data from csv to db2 on i. NOTE, this script is using the non-journal database.

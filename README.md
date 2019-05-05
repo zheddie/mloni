@@ -20,6 +20,9 @@ libzmq|Zero-MQ library|*
 python3-jupyter|Jupyter notebook support|*
 
  (*) may not available yet.
++ Start the jupyter server by command:
+  `jupyterf notebook --ip=<your host name> --port=<port number>`
+
 ## How to use it.
 - loadcsv2db2.py, this script could be used to import your data from csv to db2 on i. NOTE, this script is using the non-journal database.
 - homeCredit , this is based on one kernel of a real data science competation on [kaggle](https://www.kaggle.com/): [homeCredit]( https://www.kaggle.com/c/home-credit-default-risk). The kernel we used is : [start-here-a-gentle-introduction] (https://www.kaggle.com/willkoehrsen/start-here-a-gentle-introduction). While the most difference from it is that we tried to use data in db2 as the source instead of csv stream file.

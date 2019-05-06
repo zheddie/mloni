@@ -19,8 +19,8 @@ python3-scikit-learn|scikit-learn package|
 python3-matplotlib|matplotlib package|*
 libzmq|Zero-MQ library|*
 python3-jupyter|Jupyter notebook support|*
+*:may not available yet.
 
- (*) may not available yet.
 ---
 + Start the jupyter server by command:
 

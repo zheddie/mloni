@@ -3,7 +3,7 @@
   This project is used to demonstrate the capacity of IBM i platform on ML/AI area. I encounge you to use, share or even add more sub-projects/notebook to this repo.  Any comments , suggestions or advisors are welcome. thanks.
 
 ## How to setup your environment of ML on i
-+ Here's where we can  [setup RPM] (http://ibm.biz/ibmi-rpms
++ Here's where we can  [setup RPM](http://ibm.biz/ibmi-rpms
 ) env on i. 
 + After setup the RPM env on i, we need to install following packages by yum.
 ---

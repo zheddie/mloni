@@ -34,5 +34,5 @@ python3-jupyter|Jupyter notebook support|*
 - **sklearndemos**, a folder to store some sklearn demos which running well on IBM i platform.
 
 ## Contacts
-   GavinZhang @ IBM: zhanggan@cn.ibm.com
+   Gavin: zheddie@cn.ibm.com
    

@@ -18,9 +18,9 @@ python3-numpy|numpy package  |
 python3-scipy|scipy package|
 python3-scikit-learn|scikit-learn package|
 matplotlib|matplotlib package|install it by pip3
-libzmq|Zero-MQ library|*
+libzmq|Zero-MQ library|not available yet
 jupyter|Jupyter notebook support|install it by pip3 after libzmq available
-*:may not available yet.
+
 
 ---
 + Start the jupyter server by command:

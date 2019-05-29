@@ -17,9 +17,9 @@ python3-ibm_db|DBAPI support package for IBM i|
 python3-numpy|numpy package  |
 python3-scipy|scipy package|
 python3-scikit-learn|scikit-learn package|
-python3-matplotlib|matplotlib package|*
+matplotlib|matplotlib package|install it by pip3
 libzmq|Zero-MQ library|*
-python3-jupyter|Jupyter notebook support|*
+jupyter|Jupyter notebook support|install it by pip3 after libzmq available
 *:may not available yet.
 
 ---
